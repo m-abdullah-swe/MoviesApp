@@ -5,7 +5,8 @@ import MovieSearchScreen from "./screens/MovieSearchScreen";
 import MovieDetailsScreen from "./screens/MovieDetailsScreen";
 
 const Stack = createStackNavigator();
-// heheeh
+
+
 const App = () => {
   return (
     <NavigationContainer>
