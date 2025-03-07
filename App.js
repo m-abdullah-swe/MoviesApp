@@ -14,12 +14,12 @@ const App = () => {
         <Stack.Screen
           name="MovieSearch"
           component={MovieSearchScreen}
-          options={{ title: "Movie Search", headerShown: false }}
+          options={{headerShown: false }}
         />
         <Stack.Screen
           name="MovieDetails"
           component={MovieDetailsScreen}
-          options={{ title: "Movie Details", headerShown: false }}
+          options={{headerShown: false }}
         />
       </Stack.Navigator>
     </NavigationContainer>
