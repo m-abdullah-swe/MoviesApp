@@ -49,7 +49,6 @@ const MovieDetailsScreen = ({ route, navigation }) => {
           .map((item) => JSON.parse(item));
       }
       if (isFavorite) {
-        // Remove only the movie with the same title and year (normalized)
         favMovies = favMovies.filter(
           (fav) =>
             !(
